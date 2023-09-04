@@ -1,0 +1,77 @@
+{
+    "code": 20000,
+    "msg": "成功",
+    "data": {
+        "sort": null,
+        "offset": 0,
+        "limit": 10,
+        "total": 2,
+        "size": 10,
+        "pages": 1,
+        "current": 1,
+        "searchCount": true,
+        "records": [
+            {
+                "id": 10,
+                "createTime": "2023-02-09 16:02:12",
+                "createBy": 1,
+                "modifyTime": "2023-02-09 16:02:12",
+                "modifyBy": 1,
+                "version": "20230209",
+                "platforms": [
+                    {
+                        "id": 11,
+                        "createTime": "2023-02-09 16:13:27",
+                        "createBy": 1,
+                        "modifyTime": "2023-02-09 16:13:27",
+                        "modifyBy": 1,
+                        "platformName": "cuda11",
+                        "versionId": 10,
+                        "url": "http://localhost:8000/20230209/zeno-2023.02.09-14.06-x86_64-windows-cuda11.zip",
+                        "discription": "",
+                        "deps": [
+                        ]
+                    },
+                    {
+                        "id": 12,
+                        "createTime": "2023-02-09 17:13:27",
+                        "createBy": 1,
+                        "modifyTime": "2023-02-09 17:13:27",
+                        "modifyBy": 1,
+                        "platformName": "cuda12",
+                        "versionId": 10,
+                        "url": "http://localhost:8000/20230209/zeno-2023.02.09-14.06-x86_64-windows-cuda12.zip",
+                        "discription": "",
+                        "deps": [
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "createTime": "2022-06-27 16:02:12",
+                "createBy": 1,
+                "modifyTime": "2022-06-27 16:02:12",
+                "modifyBy": 1,
+                "version": "20230405",
+                "platforms": [
+                    {
+                        "id": 11,
+                        "createTime": "2023-04-05 17:50:27",
+                        "createBy": 1,
+                        "modifyTime": "2023-04-05 17:50:27",
+                        "modifyBy": 1,
+                        "platformName": "cuda11",
+                        "versionId": 10,
+                        "url": "http://localhost:8000/20230405/zeno-2023.04.05-19.56-x86_64-windows-cuda11.zip",
+                        "discription": "",
+                        "deps": [
+                        ]
+                    }
+                ]
+            }
+        ],
+        "filters": null
+    },
+    "success": true
+}

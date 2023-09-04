@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file alias="default">res/default.css</file>
+    </qresource>
+    <qresource prefix="/img">
+        <file alias="close">res/home_icon_shutdown_default.png</file>
+        <file alias="close_hover">res/home_icon_shutdown_selected.png</file>
+        <file alias="home_logo">res/home_logo.png</file>
+        <file alias="unins_over">res/unins_over.png</file>
+        <file alias="unins">res/uninstall.png</file>
+    </qresource>
+</RCC>

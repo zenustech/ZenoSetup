@@ -1,0 +1,101 @@
+﻿* {
+    font-family: 'Microsoft YaHei UI';
+    font-size: 14px;
+}
+
+uninstall {
+    min-height: 500px;
+    max-height: 500px;
+    min-width: 374px;
+    max-width: 374px;
+    background-color: #272D36;
+}
+
+#m_pLbBackImg {
+    min-height: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+#m_pLbTitleIcon {
+    background-color: transparent;
+    color: #B4BECD;
+    border-image: url(:/img/home_logo);
+    min-width: 27px;
+    max-width: 27px;
+    min-height: 27px;
+    max-height: 27px;
+}
+
+#m_pBtnClose {
+    min-width: 22px;
+    max-width: 22px;
+    min-height: 22px;
+    max-height: 22px;
+    border-image: url(:/img/close);
+}
+
+    #m_pBtnClose:hover {
+        border-image: url(:/img/close_hover);
+    }
+
+#m_pLbTip1 {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+#m_pLbTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: #828282;
+}
+
+#m_pBtnUninstall, #m_pBtnOK {
+    min-width: 138px;
+    max-width: 138px;
+    min-height: 40px;
+    max-height: 40px;
+    background-color: #FF595A;
+    border-radius: 20px;
+    color: white;
+}
+
+    #m_pBtnUninstall:hover {
+        background-color: #FF7D80;
+    }
+
+#m_pBtnCancel {
+    min-width: 138px;
+    max-width: 138px;
+    min-height: 40px;
+    max-height: 40px;
+    background-color: rgba(39, 45, 54, 1);
+    border: 1px solid #6F7C8E;
+    border-radius: 20px;
+    color: #A9B3C0;
+}
+
+#m_pLbTip2 {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+#m_pLbTip3 {
+    font-size: 16px;
+    color: #F9DD4A;
+}
+
+#m_pPbDownload {
+    min-width: 294px;
+    max-width: 294px;
+    min-height: 8px;
+    max-height: 8px;
+    background: #484E57;
+    border-radius: 4px;
+}
+
+    #m_pPbDownload::chunk {
+        background: #F9DD4A;
+        border-radius: 4px;
+    }

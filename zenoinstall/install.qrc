@@ -1,0 +1,50 @@
+﻿<RCC>
+    <qresource prefix="/img">
+        <file alias="close">res/home_icon_shutdown_default.png</file>
+        <file alias="close_hover">res/home_icon_shutdown_selected.png</file>
+        <file alias="title_icon">res/home_logo.png</file>
+        <file alias="down">res/arrow_up.png</file>
+        <file alias="up">res/arrow_down.png</file>
+        <file alias="check">res/click.png</file>
+        <file alias="r-check">res/rselect.png</file>
+        <file alias="r-uncheck">res/runselect.png</file>
+        <file alias="select-dir">res/selectdir.png</file>
+        <file alias="firstImage">res/small.png</file>
+        <file alias="finish">res/finish.gif</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file alias="default">res/default.css</file>
+    </qresource>
+    <qresource prefix="/font">
+        <file alias="Poppins-Black">res/Poppins/Poppins-Black.ttf</file>
+        <file alias="Poppins-BlackItalic">res/Poppins/Poppins-BlackItalic.ttf</file>
+        <file alias="Poppins-Bold">res/Poppins/Poppins-Bold.ttf</file>
+        <file alias="Poppins-BoldItalic">res/Poppins/Poppins-BoldItalic.ttf</file>
+        <file alias="Poppins-ExtraBold">res/Poppins/Poppins-ExtraBold.ttf</file>
+        <file alias="Poppins-ExtraBoldItalic">res/Poppins/Poppins-ExtraBoldItalic.ttf</file>
+        <file alias="Poppins-ExtraLight">res/Poppins/Poppins-ExtraLight.ttf</file>
+        <file alias="Poppins-ExtraLightItalic">res/Poppins/Poppins-ExtraLightItalic.ttf</file>
+        <file alias="Poppins-Italic">res/Poppins/Poppins-Italic.ttf</file>
+        <file alias="Poppins-Light">res/Poppins/Poppins-Light.ttf</file>
+        <file alias="Poppins-LightItalic">res/Poppins/Poppins-LightItalic.ttf</file>
+        <file alias="Poppins-Medium">res/Poppins/Poppins-Medium.ttf</file>
+        <file alias="Poppins-MediumItalic">res/Poppins/Poppins-MediumItalic.ttf</file>
+        <file alias="Poppins-Regular">res/Poppins/Poppins-Regular.ttf</file>
+        <file alias="Poppins-SemiBold">res/Poppins/Poppins-SemiBold.ttf</file>
+        <file alias="Poppins-SemiBoldItalic">res/Poppins/Poppins-SemiBoldItalic.ttf</file>
+        <file alias="Poppins-Thin">res/Poppins/Poppins-Thin.ttf</file>
+        <file alias="Poppins-ThinItalic">res/Poppins/Poppins-ThinItalic.ttf</file>
+        <file alias="Alibaba-PuHuiTi-Bold">res/PuHuiTi/Alibaba-PuHuiTi-Bold.ttf</file>
+        <file alias="Alibaba-PuHuiTi-Heavy">res/PuHuiTi/Alibaba-PuHuiTi-Heavy.ttf</file>
+        <file alias="Alibaba-PuHuiTi-Light">res/PuHuiTi/Alibaba-PuHuiTi-Light.ttf</file>
+        <file alias="Alibaba-PuHuiTi-Medium">res/PuHuiTi/Alibaba-PuHuiTi-Medium.ttf</file>
+        <file alias="Alibaba-PuHuiTi-Regular">res/PuHuiTi/Alibaba-PuHuiTi-Regular.ttf</file>
+    </qresource>
+    <qresource prefix="/license">
+        <file alias="license">res/license/License.html</file>
+        <file alias="licensecss">res/license/License_files/mpl-2-0.d89bc3bc9d45.css</file>
+    </qresource>
+    <qresource prefix="/languages">
+        <file alias="zh.qm">res/languages/zh.qm</file>
+    </qresource>
+</RCC>

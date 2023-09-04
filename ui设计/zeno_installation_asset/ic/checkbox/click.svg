@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic/checkbox</title>
+    <g id="ZENO@2Installation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-1414.000000, -458.000000)" fill-rule="nonzero">
+            <g id="第二步" transform="translate(1376.000000, 86.000000)">
+                <g id="ic/checkbox" transform="translate(38.000000, 372.000000)">
+                    <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="20" height="20"></rect>
+                    <path d="M15.8333333,4.16666666 L15.8333333,15.8333333 L4.16666666,15.8333333 L4.16666666,4.16666666 L15.8333333,4.16666666 Z M11.6666667,7.83333334 L9.58333334,9.91666666 L8.41666666,8.75 L7.25,9.91666666 L9.58333334,12.25 L12.8333333,9 L11.6666667,7.83333334 Z" id="形状" fill="#53DEE4"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

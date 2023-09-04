@@ -1,0 +1,285 @@
+﻿/*=========================主界面===========================*/
+#m_pLbIcon{
+    border-image: url(:/img/title_icon);
+    background-color: transparent;
+}
+
+#m_pLbTitle {
+    font-family: "Alibaba PuHuiTi";
+    font-size: 16px;
+    font-weight: 600;
+    color: #828282;
+}
+
+#m_pBtnClose {
+    border-image: url(:/img/close);
+    background-color: transparent;
+}
+
+#m_pBtnClose:hover {
+    border-image: url(:/img/close_hover);
+}
+
+#m_pStackedWidget{
+    background: #242424;
+}
+
+#m_pBtnInstall, #m_pBtnNext {
+    border: 1px solid rgba(83,222,228,1);
+    font-family: "Alibaba PuHuiTi";
+    font-size: 16px;
+    color: #53DEE4;
+    letter-spacing: 1.6px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+#m_pBtnInstall:hover, #m_pBtnNext:hover {
+    background: #326E71;
+    color: #ffffff;
+}
+
+#m_pBtnBack {
+    border: 1px solid rgba(130,130,130,1);
+    font-family: "Alibaba PuHuiTi";
+    font-size: 16px;
+    color: #828282;
+    letter-spacing: 1.6px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 400;
+}
+#m_pBtnBack:hover{
+    border: 1px solid rgba(196,196,196,1);
+    font-family: "Alibaba PuHuiTi";
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 1.6px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+#mLbTitle {
+    font-family: "Alibaba PuHuiTi";
+    font-size: 16px;
+    color: rgba(255,255,255,0.4);
+    font-weight: 500;
+    background: #242424;
+}
+
+/*=========================首尾图片===========================*/
+#mLbFirstImage{
+/*    background-color: #2F2F2F;*/
+/*    border: 2px solid rgba(151,151,151,1);*/
+    border-image: url(:/img/firstImage);
+
+}
+#mLbFinishedImage{
+    /*border: 1px solid rgba(0,0,0,0.5);*/
+    /*padding-bottom: 20px;*/
+}
+/*=========================选择安装路径界面===========================*/
+#m_pEdtPath{
+    background: #1A1A1A;
+
+    font-family: "Alibaba PuHuiTi";
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+
+    border: none;
+}
+
+#m_pBtnSelectPath{
+    border-image:url(:/img/select-dir);
+}
+
+#mLbChooseFolderTip {
+    font-family: "Alibaba PuHuiTi";
+    font-size: 12px;
+    color: rgba(255,255,255,0.4);
+    line-height: 16px;
+    font-weight: 400;
+}
+
+/*=========================用户协议界面===========================*/
+#m_pTextEdit {
+    font-family: "Alibaba PuHuiTi";
+    font-size: 14px;
+    color: rgba(130,130,130,0.69);
+    text-align: center;
+    font-weight: 400;
+    background: #1A1A1A;
+    border: 1px solid rgba(0,0,0,1);
+}
+
+#m_pCheckBox {
+    font-family: "Alibaba PuHuiTi";
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+#m_pCheckBox::indicator:checked{
+/*    border: 1px solid  #53DEE4;*/
+/*    background: #53DEE4;*/
+    border-image: url(:/img/check);
+}
+
+#m_pCheckBox::indicator:unchecked{
+    border: 1px solid #53DEE4;
+    background: #242424;
+}
+/*=========================版本选择界面===========================*/
+#mLbSoftVer, #mLbDriveVer {
+    font-family: "Alibaba PuHuiTi";
+    font-size: 16px;
+    color: rgba(255,255,255,0.4);
+    font-weight: 500;
+}
+
+QComboBox{
+    background: #1A1A1A;
+
+    font-family: "Alibaba PuHuiTi";
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    border: none;
+}
+
+QComboBox QAbstractItemView{
+    font-family: "Alibaba PuHuiTi";
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    outline: 0px solid gray;   /* 选定项的虚框 */
+    border: 1px solid #242424;   /* 整个下拉窗体的边框 */
+    background-color: #1A1A1A;   /* 整个下拉窗体的背景色 */
+    selection-background-color:  #326E71;   /* 整个下拉窗体被选中项的背景色 */
+}
+
+QComboBox QAbstractItemView::item {
+    height: 32px;   /* 项的高度（设置pComboBox->setView(new QListView());后，该项才起作用） */
+}
+
+QComboBox QAbstractItemView::item:hover {
+    background-color: #326E71;
+}
+
+QComboBox QAbstractItemView::item:selected {
+    background-color: #326E71;
+}
+
+QComboBox::drop-down {
+    width: 36px;
+    border-image: url(:/img/up);
+}
+
+
+#m_pRBtnCPU, #m_pRBtnGPU{
+    background: #1A1A1A;
+
+    font-family: "Alibaba PuHuiTi";
+    font-size: 16px;
+    color: #828282;
+    font-weight: 600;
+}
+
+QRadioButton::indicator{
+    background-color:transparent;
+    image:url(:/img/r-uncheck);
+}
+/*QRadioButton::indicator:hover{
+    Image:url(./image2.png);
+}
+QRadioButton::indicator:pressed{
+    Image:url(./image2.png);
+}*/
+QRadioButto::indicator:unchecked{
+    image:url(:/img/r-uncheck);
+}
+/*QRadioButton::indicator:unchecked:hover{
+Image:url(./image2.png);
+}
+QRadioButton::indicator:unchecked:pressed{
+Image:url(./image2.png);
+}*/
+QRadioButton::indicator:checked{
+    image:url(:/img/r-check);
+    color: #FFFFFF;
+}
+/*QRadioButton::indicator:checked:hover{
+Image:url(./image2.png);
+}
+QRadioButton::indicator:checked:pressed{
+Image:url(./image2.png);
+}*/
+
+/*=========================安装中界面===========================*/
+#mLbInstallingTip {
+    font-family: "Alibaba PuHuiTi";
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+#m_pProgressBar {
+    background-color: #1A1A1A;
+    border: none;
+    font-family: "Alibaba PuHuiTi";
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+#m_pProgressBar::chunk{
+    border: none;
+    background-color: #326E71;
+}
+
+
+/**********滚动条-垂直**********/
+QScrollBar:vertical {
+        width: 20px;
+        background: transparent;
+        margin-left: 3px;
+        margin-right: 3px;
+}
+QScrollBar::handle:vertical {
+        width: 20px;
+        min-height: 30px;
+        background: #242424;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+}
+QScrollBar::handle:vertical:hover {
+        background: #353535;
+}
+QScrollBar::sub-line:vertical {
+        height: 15px;
+        background: transparent;
+        image: url(:/Black/arrowTop);
+        subcontrol-position: top;
+}
+QScrollBar::add-line:vertical {
+        height: 15px;
+        background: transparent;
+        image: url(:/Black/arrowBottom);
+        subcontrol-position: bottom;
+}
+QScrollBar::sub-line:vertical:hover {
+        background: rgb(68, 69, 73);
+}
+QScrollBar::add-line:vertical:hover {
+        background: rgb(68, 69, 73);
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+        background: transparent;
+}
+
+QScrollBar#verticalScrollBar:vertical {
+        margin-top: 30px;
+}
