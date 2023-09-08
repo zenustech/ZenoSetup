@@ -1,4 +1,5 @@
 ﻿#include "frmmain.h"
+#include "updatemain.h"
 
 static bool isAppRunOnce()
 {
@@ -47,11 +48,16 @@ int main(int argc, char *argv[])
 
     frmMain::RunType iType = frmMain::None;
     QString argValue;
+    QString url;
+    QString version;
     if (argc > 1)
-    {
+    {        
          QCommandLineParser cmdParser;
          cmdParser.addOptions({{"update", "check app update"},
-                              {"bugreport", "upload app dump file"},});
+                              {"bugreport", "upload app dump file"},
+                              {"version", "Installation version", "version"},
+                              {"url", "Installation package url", "url"},
+             });
          cmdParser.process(a);
          if (cmdParser.isSet("update"))
          {
@@ -62,8 +68,22 @@ int main(int argc, char *argv[])
          {
              iType = frmMain::Report;
          }
+         else if (cmdParser.isSet("version") && cmdParser.isSet("url"))
+         {
+             version = cmdParser.value("version");
+             url = cmdParser.value("url");
+         }
     }
-    frmMain w(iType);
-    w.show();
-    return a.exec();
+    if (url.isEmpty())
+    {
+        frmMain w(iType);
+        w.show();
+        return a.exec();
+    }
+    else
+    {
+        UpdateMain w(version, url);
+        w.show();
+        return a.exec();
+    } 
 }

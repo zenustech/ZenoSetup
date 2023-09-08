@@ -11,6 +11,8 @@
         <file alias="select-dir">res/selectdir.png</file>
         <file alias="firstImage">res/small.png</file>
         <file alias="finish">res/finish.gif</file>
+		<file alias="update-download">res/update-download.png</file>
+		<file alias="update_main">res/update_main.png</file>
     </qresource>
     <qresource prefix="/qss">
         <file alias="default">res/default.css</file>
