@@ -14,6 +14,7 @@ signals:
     void downLoadFinished();
     void downloadFailed();
     void progressUpdated(qreal);
+    void downloadProgressUpdated(qreal dlnow, qreal dlTotal);
 
 public slots:
     void startDownload();

@@ -4,6 +4,11 @@
     background-color: transparent;
 }
 
+#m_pUpdateLbIcon {
+    border-image: url(:/img/update_main);
+    background-color: transparent;
+}
+
 #m_pLbTitle {
     font-family: "Alibaba PuHuiTi";
     font-size: 16px;
@@ -239,7 +244,15 @@ Image:url(./image2.png);
     background-color: #326E71;
 }
 
+QLabel[cssClass = "downloading"] {
+    border-image: url(:/img/update-download);
+    background-color: transparent;
+}
 
+QLabel[cssClass = "installing"] {
+    border-image: url(:/img/firstImage);
+    background-color: transparent;
+}
 /**********滚动条-垂直**********/
 QScrollBar:vertical {
         width: 20px;

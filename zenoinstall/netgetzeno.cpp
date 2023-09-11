@@ -13,6 +13,8 @@ static int progress_callback(void* ptr, double dltotal, double dlnow, double ult
 {
     NetGetZeno* pWorker = static_cast<NetGetZeno*>(ptr);
     emit pWorker->progressUpdated(dltotal > 0 ? dlnow / dltotal : 0);
+    if (dltotal > 0)
+        emit pWorker->downloadProgressUpdated(dlnow, dltotal);
     return 0;
 }
 
